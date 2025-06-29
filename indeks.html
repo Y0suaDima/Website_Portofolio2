@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Yosua Bernard Dima</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            font-family: 'Times New Roman', Times, serif;
+            max-width: 960 px;
+            margin: 0 auto;
+            padding: 20 px;
+        }
+        header {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #3f51b5;
+            color: #fff;
+            padding: 1 rem 0;
+            text-align: center;
+            box-shadow: 0 2 px 5 px rgba (0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5 em;
+        }
+        nav ul {
+            font-family: garamond;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15 px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1 em;
+            transition: color 0.3 s ease;
+        }
+        nav ul li a:hover {
+            color: #ffd600;
+        }
+        section {
+            background-color: #fff;
+            margin-bottom: 20 px;
+            padding: 30 px;
+            border-radius: 8 px;
+            box-shadow: 0 2 px 5 px rgba (0,0,0,0.05);
+        }
+        section h2 {
+            color: #3f51b5;
+            text-align: center;
+            margin-bottom: 25 px;
+            font-size: 2 em;
+        }
+        .about-me {
+            display: flex;
+            align-items: center;
+            gap: 20 px;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+        .about-me img {
+            width: 150 px;
+            height: 150 px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4 px solid #3f51b5;
+            box-shadow: 0 0 10 px rgba (0,0,0,0.1);
+        }
+        .about-me p {
+            max-width: 600 px;
+            margin: 10 px auto;
+        }
+        .hobi ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1 rem;
+        }
+        .hobi li {
+            background-color: #e0e7ff;
+            color: #333;
+            padding: 0.7 rem 1.2 rem;
+            border-radius: 20 px;
+            font-weight: 600;
+            font-size: 1 rem;
+            user-select: none;
+            box-shadow: 0 4 px 10 px rgba (26, 188, 156, 0.4);
+            transition: background-color 0.3 s ease;
+            cursor: default;
+        }
+        .hobi li:hover {
+            background-color: #3616a0;
+            color: #fff;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info p {
+            font-size: 1.1 em;
+            margin-bottom: 10 px;
+        }
+        .contact-info a {
+            color: #3f51b5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20 px;
+            background-color: #333;
+            color: #fff;
+            font-size: 0.9 em;
+            margin-top: 30 px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hallo, Saya Yosua Bernard Dima</h1>
+            <p>Mahasiswa Teknik Informatika | Universitas Kristen Wira Wacana Sumba</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#hobi">Hobi</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <div class="about-me">
+                <img src="IMG_20230218_230031_234.jpg" alt="Foto Profil Anda">
+                <div>
+                    <p>Halo! Nama saya Yosua Bernard Dima, seorang mahasiswa semester 4 di jurusan Teknik Informatika di Universitas Kristen Wira Wacana Sumba.</p>
+                </div>
+            </div>
+        </section>
+        <section id="hobi" class="hobi" aria-labelledby="hobi-title">
+            <h2 id="hobi-title">Hobi</h2>
+            <ul>
+                <li>Olahraga</li>
+                <li>Membaca Buku</li>
+                <li>Jalan-jalan</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Kontak</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:yosuadima213@gmail.com">yosuadima213@gmail.com</a></p>
+                <p>Nomor Hp: <a href="tel:081213322011" target="_blank">081213322011</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Yosua Bernard Dima. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
